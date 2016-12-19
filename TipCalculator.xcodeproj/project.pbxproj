@@ -14,6 +14,7 @@
 		758ECFEF1E0734C30005731A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758ECFED1E0734C30005731A /* LaunchScreen.storyboard */; };
 		758ECFFA1E0734C40005731A /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ECFF91E0734C40005731A /* TipCalculatorTests.swift */; };
 		758ED0051E0734C40005731A /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ED0041E0734C40005731A /* TipCalculatorUITests.swift */; };
+		758ED0131E0775F30005731A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ED0121E0775F30005731A /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		758ED0001E0734C40005731A /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		758ED0041E0734C40005731A /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		758ED0061E0734C40005731A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758ED0121E0775F30005731A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				758ECFE41E0734C30005731A /* AppDelegate.swift */,
 				758ECFE61E0734C30005731A /* ViewController.swift */,
 				758ECFE81E0734C30005731A /* Main.storyboard */,
+				758ED0121E0775F30005731A /* SettingsViewController.swift */,
 				758ECFEB1E0734C30005731A /* Assets.xcassets */,
 				758ECFED1E0734C30005731A /* LaunchScreen.storyboard */,
 				758ECFF01E0734C30005731A /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				758ECFE71E0734C30005731A /* ViewController.swift in Sources */,
 				758ECFE51E0734C30005731A /* AppDelegate.swift in Sources */,
+				758ED0131E0775F30005731A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
