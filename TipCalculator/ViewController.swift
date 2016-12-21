@@ -31,6 +31,11 @@ class ViewController: UIViewController {
         }
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        billField.becomeFirstResponder()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -49,9 +54,11 @@ class ViewController: UIViewController {
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         let total = bill + tip
         
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
         
+        tipLabel.text = formatter.string(from: NSNumber.init(value: tip))
+        totalLabel.text = formatter.string(from: NSNumber.init(value: total))
     }
 }
 
