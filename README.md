@@ -4,7 +4,7 @@ TipCalculator is a tip calculator application for iOS.
 
 Submitted by: Richard Du
 
-Time spent: 5 hours spent in total
+Time spent: 20 hours spent in total
 
 ## User Stories
 
@@ -22,12 +22,14 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
+- [x] Added an option for a custom tip percentage
+- [x] Added amount per person for groups, up to 5 people
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src=http://i.imgur.com/ZxGf7Mg.gif title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -35,9 +37,16 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+The biggest challenge I faced in the beginning was figuring out how I would complete the pre-work assignment. I only had access to Windows Operating systems at home and I did
+not want to buy a Mac just to do the assignment. But then I searched online and found out that I could use a virtual machine to run MacOS to create the app on XCode. Completing the
+basic app functions was not too challenging since I just followed the video walkthrough. The hardest part about creating the app was learning how to do everything. When I got started
+on adding extra features, I was searching on Google for how to do everything. The function for saving the app state was very difficult for me because I could not find an example
+online that was similar to what I wanted to do. I spent three days worth of time trying to figure it out and in the end, I just dropped it and decided to spend my time working on
+other features for the tip calculator.
+
 ## License
 
-    Copyright 2016 Richard Du
+    Copyright © 2016 Richard Du
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
